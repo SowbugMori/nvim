@@ -27,6 +27,5 @@ require('gruvbox').setup({
   invert_tabline = true
 })
 vim.o.background = 'dark'
-vim.cmd([[colorscheme gruvbox]])
 
 vim.g.doge_doc_standard_python = 'reST'
