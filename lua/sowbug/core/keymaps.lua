@@ -14,9 +14,9 @@ keymap.set('n','<leader>tp',':tabp<CR>') -- prev tab
 
 keymap.set('n','<leader>e',':NERDTreeToggle<CR>') -- open tree
 
-keymap.set('n','<C-J>','<C-W><C-J>') -- move left window
+keymap.set('n','<C-J>','<C-W><C-J>') -- move down window
 keymap.set('n','<C-K>','<C-W><C-K>') -- move up window
-keymap.set('n','<C-L>','<C-W><C-L>') -- move down window
+keymap.set('n','<C-L>','<C-W><C-L>') -- move right window
 keymap.set('n','<C-H>','<C-W><C-H>') -- move left window
 
 local opts = {silent = true, noremap = true, expr = true, replace_keycodes = false}
